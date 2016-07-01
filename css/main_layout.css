@@ -12,8 +12,12 @@ body  {
 	height: 235px;
 	position: relative;
 }
+#header img {
+	width: 800px;
+	height: 235px;
+}
 #wrapper {
-	width: 770px;
+	width: 800px;
 	background: #fff;
 	margin: 0 auto;
 	text-align: left;
@@ -41,9 +45,26 @@ body  {
 #sidebar {
 	background-color: #636;
 	padding: 0px;
-	width: 235px;
+	width: 268px;
 	float: right;
 	height: 1000px;
+}
+#sidebar img {
+	display: block;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 1px;
+	margin-left: auto;
+	width: 240px;
+	height: 135px;
+}
+#sidebar img.gallery {
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	border: thick solid #aaa;
+	cursor: pointer;
 }
 #Footer {
 	background-color: #999;

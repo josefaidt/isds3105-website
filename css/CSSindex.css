@@ -54,9 +54,15 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 .sidebar-left {
 	float: left;
 	width: 20%;
-	background-color: #FFFF99;
-	padding-bottom: 10px;
+	background-color: #99CC99;
+	padding: 10px 0;
+	border-top-color: #FF9;
+	border-right-color: #FF9;
+	border-bottom-color: #FF9;
+	border-left-color: #FF9;
+	color: #FF9;
 }
+
 .content {
 	padding: 10px 0;
 	width: 60%;
