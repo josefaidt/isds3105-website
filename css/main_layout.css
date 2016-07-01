@@ -34,6 +34,12 @@ body  {
 	width: 530px;
 	float: left;
 }
+#mainContent p {
+	padding-left: 10px;
+}
+#mainContent img {
+	padding-right: 5px;
+}
 #innerContent {
 	background-color: #606;
 	float: left;
