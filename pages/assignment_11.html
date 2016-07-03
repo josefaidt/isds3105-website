@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8">
+		<title>Assignment 10</title>
+		<style type="text/css">
+			body {
+				color: #000000;
+				padding: 0;
+				margin: 0;
+				font-family: Arial, Helvetica, sans-serif;
+				text-align:center;
+				background: #CCC;/*	background: url(images/grid.gif) 0px 5px;*/
+				font-size: 100%;
+			}
+
+			#wrapper {
+				margin: 0 auto;
+				width: 790px;
+				text-align:left;
+				position: relative;
+				background: #fff;
+				padding: 10px;
+				}
+			#abs {
+				float: left;
+				width: 48%;
+			}
+			#rel {
+				float: right;
+				width: 48%;
+			}
+				
+			h1 {
+				color: #600;
+				margin: 0px;
+				border-bottom: 1px solid #600;
+				font-family: Georgia, "Times New Roman", Times, serif;
+				font-weight: normal;
+				font-size: 1.8em;
+			}
+			h2 {
+				color: #693;
+				font-family: Georgia, "Times New Roman", Times, serif;
+				font-size: 1.4em;
+			}
+
+			p {
+				color: #FF0000;
+			}
+			dt {
+				font-weight: bold;
+				color: #630;
+				font-size: 1.2em;
+				margin-bottom: 0.4em;
+				font-style: italic;
+				margin-top: 0.6em;
+				margin-right: 0px;
+				margin-left: 0px;
+				padding: 0px;
+			}
+			dl {
+				margin-top: 0px;
+			}
+			dd {
+				font-family: Georgia, "Times New Roman", Times, serif;
+				text-align: justify;
+				font-size: .9em;
+				margin-bottom: 1.2em;
+				margin-left: 1.2em;
+				margin-right: 1em;
+			}
+			p.resize {
+				clear: both;
+			}
+			p.resize2 {
+			}
+			.points {
+				font-family: "Verdana, Geneva, sans-serif";
+				font-size: 12pt;
+				color: blue;
+				line-height: 1.6;
+			}
+			.em {
+				font-family: Georgia, "Times New Roman", Times, serif;
+				font-size: 1.1em;
+				color: purple;
+			}
+			.px {
+				font-family: "Courier New", Courier, monospace;
+				font-size: 20px;
+				color: green;
+			}
+			.percent {
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 120%;
+				color: yellow;
+			}
+			div, h1, h2, h3, h4, h5, h6, p, pre, span, ul, ol, li, img, address, blockquote {
+				padding: 0px;
+				margin-top: 0.6em;
+				margin-right: 0em;
+				margin-bottom: 0.4em;
+				margin-left: 0em;
+			}
+			body,td,th {
+				color: #000;
+			}
+		</style>
+	</head>
+<body>
+<div id="wrapper"><h1>Common units of measurements:</h1>
+	<div id="abs">
+		<h2>Absolute:</h2>
+		<dl>
+		<dt>Points <strong>(12pt)</strong></dt>
+		<dd class="points">Points are a typical unit measurement used in printed documents. Many graphic designers begin using points in their web pages due to instant familiarity. In reality a point is actually 1/72 of an inch, which requires further translation in order to finally generate a value in pixels. Not recommended for screen values, but perfect for print style sheets</dd>
+		<dt>Inches <strong>(.25in)</strong></dt>
+		<dd>Similar to points in that they are fine for the printed page, but should be avoided for on-screen rendering</dd>
+		<dt>Centimeters <strong>(30cm)</strong></dt>
+		<dd>Again, a fixed unit of measurement that doesn't translate well to the screen.</dd>
+		</dl>
+	</div>
+	<div id="rel">
+		<h2>Relative:</h2>
+		<dl>
+		<dt>Ems <strong>(1em)</strong></dt>
+		<dd class="em">An em is a relative unit of measurement roughly equal to the size of a single capital M for that particular font. They have the advantage of being relative to the font itself, so they size the font based on its sizing characteristics.</dd>
+		<dt>Ex <strong>(1.2ex)</strong></dt>
+		<dd>Exs are relative units that relate to a font's native &quot;x-height&quot; or height of the lower-case x. Not as widely used as Ems but share some of the same advantages.</dd>
+		<dt>Percentage <strong>(100%)</strong></dt>
+		<dd class="percent">Roughly similar to Ems and Exs, although not tied to any specific character or height. 100% means just that, 100% of the current font size.</dd>
+		<dt>Pixels <strong>(16px)</strong></dt>
+		<dd class="px">Interestingly enough, pixels are often listed as absolute or fixed measurements depending upon who you listen to. Although using pixels does &quot;fix&quot; the size at a specific pixel size, the variations of monitor resolutions cause the actual size of pixels themselves to change. Older browsers have difficulty in resizing text set to pixels, making them a unreliable choice for those seeking to build accessible sites.</dd>
+		</dl>
+	</div> 
+  	<p class="resize">Make this paragraph 16px tall</p>
+  	<p class="resize2">Make this one 16px tall too, please</p>
+</div>
+</body>
+
+</html>
