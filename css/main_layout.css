@@ -41,9 +41,17 @@ body  {
 	background-color: #606;
 	float: left;
 	color: #FFF;
+	width: 100%
 	}
 #innerContent img {
 	float: left;
+}
+#innerContent a {
+	color: #ffe6e6;
+}
+#innerContent li {
+	list-style: none;
+	text-indent: 20px;
 }
 #sidebar {
 	background-color: #636;
@@ -51,6 +59,11 @@ body  {
 	width: 268px;
 	float: right;
 	height: 1000px;
+	text-align: right;
+}
+#sidebar p {
+	padding-right: 10px;
+	color: #FFF;
 }
 #sidebar img {
 	display: block;
