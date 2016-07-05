@@ -5,16 +5,13 @@ body  {
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	font-family: 'Dosis', cursive;
 }
 #header {
 	background-color: #fc0;
 	padding: 0px;
 	height: 235px;
 	position: relative;
-}
-#header img {
-	width: 800px;
-	height: 235px;
 }
 #wrapper {
 	width: 800px;
@@ -24,7 +21,7 @@ body  {
 }
 #wrapper #contactbutton {
 	position: absolute;
-	left: 651px;
+	left: 650px;
 	top: 1px;
 }
 #mainContent {
