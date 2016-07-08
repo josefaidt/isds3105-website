@@ -31,7 +31,7 @@ body  {
 	width: 530px;
 	float: left;
 }
-#mainContent p {
+#mainContent p, h1, h2, h3 {
 	padding-left: 10px;
 }
 #mainContent img {
