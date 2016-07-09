@@ -1,13 +1,17 @@
 @charset "utf-8";
 html, body {
-	background-color: #9999CC;
 	margin: 0;
 	padding: 0;
 	color: #000;
 	font-family: 'Dosis', cursive;
 	font-size: 100%;
-	font-style: semi-bold;
+	font-style: 'semi-bold';
 	line-height: 1.4;
+}
+
+body {
+	background-color: #9999CC;
+	background-image: url(../images/background.png);
 }
 
 /* ~~ Element/tag selectors ~~ */
@@ -48,6 +52,14 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 .header {
 	background-color: #CC9999;
 	opacity: 80%;
+	/*background-image: url(images/banner0.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;*/
+	position: relative; 
+	left: 0; 
+	top: 0;
 }
 .header #banner {
     display: block;
