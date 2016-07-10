@@ -111,13 +111,15 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	border-left-color: #FF9;
 	color: #FF9;
 }
+.sidebar-right img {
+	align: middle;
+	vertical-align: middle;
+	padding: 5px 5px 5px 5px;
+}
 
 
 .content ul, .content ol { 
 	padding: 0 15px 15px 40px; 
-}
-.content iframe {
-	align-content: center;
 }
 
 ul.nav {
@@ -138,6 +140,12 @@ ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your li
 ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
 	background-color: #6F7D94;
 	color: #FFF;
+}
+.content ul {
+	list-style: none;
+}
+.content h3 {
+	margin-left: -15px;
 }
 
 .footer {
