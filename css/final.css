@@ -144,6 +144,9 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 .content ul {
 	list-style: none;
 }
+.content li {
+	font-size: 110%;
+}
 .content h3 {
 	margin-left: -15px;
 }
@@ -160,6 +163,8 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 }*/
 .footer p {
 	font-size: 80%;
+	text-align: center;
+	padding-top: 25px;
 }
 .footer a {
 	text-decoration: none;
