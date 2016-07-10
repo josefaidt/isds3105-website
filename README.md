@@ -1,2 +1,4 @@
 # isds3105_website
-made for ISDS 3105 Summer class with Dreamweaver CC
+Website created for ISDS 3105: Intro to Web Development & Tools summer class.
+
+The class is now complete and the project has come to an end.
