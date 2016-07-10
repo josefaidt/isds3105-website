@@ -4,15 +4,15 @@ html, body {
 	margin: 0;
 	padding: 0;
 	color: #000;
-	font-family: 'Dosis', cursive;
+	font-family: 'Arimo', sans-serif;	
 	font-size: 100%;
 	font-style: 'semi-bold';
 	line-height: 1.4;
 }
 
 body {
-	background-color: #9999CC;
-	background-image: url(../images/background.png);
+	background-color: #FCF6FF;
+	background-image: url(../images/final-background.jpg);
 }
 
 /* ~~ Element/tag selectors ~~ */
@@ -65,11 +65,12 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 .header #banner {
     display: block;
     margin: auto;
+    opacity: 80%;
 }
 .header #logo {
 	position: absolute; 
-	top: 15%; 
-	left: 5%;
+	top: 25%; 
+	left: 3%;
 }
 .header #contactbutton {
 	position: absolute;
@@ -85,7 +86,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 .sidebar-left {
 	float: left;
 	width: 20%;
-	background-color: #99CC99;
+	background-color: #A576BD;
 	padding: 10px 0;
 	border-top-color: #FF9;
 	border-right-color: #FF9;
@@ -100,9 +101,9 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	float: left;
 }
 .sidebar-right {
-	float: left;
+	float: right;
 	width: 20%;
-	background-color: #99CC99;
+	background-color: #A576BD;
 	padding: 10px 0;
 	border-top-color: #FF9;
 	border-right-color: #FF9;
@@ -114,6 +115,9 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 
 .content ul, .content ol { 
 	padding: 0 15px 15px 40px; 
+}
+.content iframe {
+	align-content: center;
 }
 
 ul.nav {
@@ -138,12 +142,19 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 
 .footer {
 	padding: 10px 0;
-	background-color: #99CC99;
+	background-color: #A576BD;
 	position: relative;/* this gives IE6 hasLayout to properly clear */
 	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
 }
+/* float text right test */
+/*.footer h3, h4, h5, p {
+	right: 0px;
+}*/
 .footer p {
 	font-size: 80%;
+}
+.footer a {
+	text-decoration: none;
 }
 
 /* ~~miscellaneous float/clear classes~~ */
