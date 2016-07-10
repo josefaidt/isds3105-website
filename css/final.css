@@ -20,7 +20,7 @@ ul, ol, dl { /* Due to variations between browsers, it's best practices to zero 
 	padding: 0;
 	margin: 0;
 }
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, p {
 	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
 	padding-right: 15px;
 	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
@@ -111,15 +111,21 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	border-left-color: #FF9;
 	color: #FF9;
 }
-.sidebar-right img {
+.sidebar-right img, .sidebar-left img {
 	align: middle;
 	vertical-align: middle;
-	padding: 5px 5px 5px 5px;
+	padding: 0 5px 5px 5px;
 }
 
+.sidebar-left h5, .sidebar-right h5 {
+	padding-left: 15px;
+}
 
 .content ul, .content ol { 
 	padding: 0 15px 15px 40px; 
+}
+.content li {
+	list-style: none;
 }
 
 ul.nav {
@@ -141,10 +147,8 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 	background-color: #6F7D94;
 	color: #FFF;
 }
-.content ul {
+.sitemap ul, .sitemap li {
 	list-style: none;
-}
-.content li {
 	font-size: 110%;
 }
 .content h3 {
